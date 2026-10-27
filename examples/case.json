@@ -1,0 +1,22 @@
+{
+  "caseId": "preview-layout",
+  "title": "Preview heading disappears",
+  "buildRef": "fixture-preview-v1",
+  "baseline": "Fresh local fixture; every listed toggle starts disabled.",
+  "instructions": "Enable exactly the listed toggles, then open Preview twice.",
+  "symptom": "The fixture heading is missing after the second Preview.",
+  "components": [
+    {
+      "id": "cache",
+      "label": "Preview cache"
+    },
+    {
+      "id": "compact",
+      "label": "Compact layout"
+    },
+    {
+      "id": "theme",
+      "label": "Theme override"
+    }
+  ]
+}
